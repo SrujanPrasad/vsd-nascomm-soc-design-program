@@ -1,4 +1,4 @@
-# Digital VLSI SoC Design and Planning program (December 11 - December 24)-Workshop Report by Srujan Prasad 
+# Digital VLSI SoC Design and Planning program (December 11 - December 24)-By Srujan Prasad 
 
 ## Overview of this repository : 
 This repository contains all the necessary details regarding the SoC design and planning that involves executing all the necessary steps starting from understanding the basics such as application softwares,
