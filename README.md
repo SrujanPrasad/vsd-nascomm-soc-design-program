@@ -1,4 +1,4 @@
-# Digital VLSI SoC Design and Planning program (December 10 - December 24)
+# Digital VLSI SoC Design and Planning program (December 11 - December 24)
 ## Workshop Report by Srujan Prasad 
 
 
