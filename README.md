@@ -76,6 +76,16 @@ Creation of folder :
 ![image](https://github.com/user-attachments/assets/1b6f127b-cd14-424f-b5a4-4d99b0de36a8)
 
 
+- Another thing is the flop ratio.Flop ratio is defined as the ratio of the number of D flip flops to the total number of cells i.e ,
+```math
+Flop\ Ratio = \frac{Number\ of\ D\ Flip\ Flops}{Total\ Number\ of\ Cells}
+```
+- So here the number of D flip flops are equal to **1613** and the total number of cells are equal to **14876**.Then the flop ratio becomes :
+
+```math
+Flop\ Ratio = \frac{1613}{14876}
+```
+ = 0.1084 or 10.84% 
 
 
 
