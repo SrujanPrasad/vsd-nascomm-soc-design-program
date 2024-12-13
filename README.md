@@ -39,4 +39,33 @@ Open Lane Flow :
 
 </details>
 
+## DAY-1 - Getting familiar with Open Lane (Module-3)
+- This module involved getting familiar with the open lane tool by first checking the version of the openlane,preparing it for further process and finally running of the synthesis.
+- Below are commands that were run to invoke openlane and perform synthesis :
+
+To invoke openlane : 
+```
+   cd ~/Desktop/work/tools/openlane_working_dir/openlane
+   ls -ltr
+   docker
+   pwd
+   ./flow.tcl -interactive
+```
+
+To check its version  :
+
+```
+  package require openlane 0.9
+```
+To perform preparation  :
+```
+prep -design picorv32a
+
+```
+Finally to run the synthesis 
+```
+run_synthesis
+```
+
+
 
