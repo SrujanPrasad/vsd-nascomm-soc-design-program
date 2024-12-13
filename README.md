@@ -66,6 +66,16 @@ Finally to run the synthesis
 ```
 run_synthesis
 ```
+Below are some of the images : 
+
+![18](https://github.com/user-attachments/assets/8b8fa7f0-0f2c-4ec4-b255-31d125c89429)
+
+Creation of folder : 
+![17](https://github.com/user-attachments/assets/2b845c92-7d94-46df-8c80-6212b196b9d9)
+
+![image](https://github.com/user-attachments/assets/1b6f127b-cd14-424f-b5a4-4d99b0de36a8)
+
+
 
 
 
