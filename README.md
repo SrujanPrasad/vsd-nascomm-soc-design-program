@@ -84,7 +84,7 @@ Flop\ Ratio = \frac{Number\ of\ D\ Flip\ Flops}{Total\ Number\ of\ Cells}
 ![25](https://github.com/user-attachments/assets/af304681-c15b-4efe-abd6-23bc4e3a7092)
 
 
-- So here the number of D flip flops are equal to **1613** and the total number of cells are equal to **14876**.Then the flop ratio becomes :
+- So here the number of D flip flops are equal to **1613** and the total number of cells are equal to **14876**.Then the flop ratio becomes:
 
 ```math
 Flop\ Ratio = \frac{1613}{14876}
@@ -93,3 +93,17 @@ Flop\ Ratio = \frac{1613}{14876}
 
 ## DAY-2 - Utilization factor and Aspect Ratio (Module-1)
 
+- This module involves understanding what is meant by utilization factor,aspect ratio and its significance in the physical design.
+- A section of the silicon wafer is called as silicon die.
+
+**Utilization factor** is defined as the ratio of the Area occupied by the netlist to the total area of the core.i.e,
+```math
+\text{Utilization Factor} = \frac{\text{Area Occupied by the Netlist}}{\text{Total Area Occupied by the Core}}
+```
+- Suppose the dimensions of a netlist are 2unit x 2unit and the dimensions of the core are 2unit x 2unit then the utilization factor is given by :
+  ```math
+    \text{Utilization Factor}= \frac{2x2}{2x2}
+  ```
+  then the utilization factor = 1.This signifies that there is **100% utilization**.
+
+  ![20](https://github.com/user-attachments/assets/f9fceb02-6f72-402d-93bf-0b2e088eed43)
