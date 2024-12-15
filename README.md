@@ -81,7 +81,8 @@ Creation of folder :
 Flop\ Ratio = \frac{Number\ of\ D\ Flip\ Flops}{Total\ Number\ of\ Cells}
 ```
 
-![25](https://github.com/user-attachments/assets/3d6646d1-3e53-41aa-b0d2-990abf7dceb3)
+![25](https://github.com/user-attachments/assets/af304681-c15b-4efe-abd6-23bc4e3a7092)
+
 
 - So here the number of D flip flops are equal to **1613** and the total number of cells are equal to **14876**.Then the flop ratio becomes :
 
