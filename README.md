@@ -249,7 +249,9 @@ flowchart TD
       ![46](https://github.com/user-attachments/assets/ebacd555-d4d2-4cc9-ad5b-9cb079c7f93c)
 
 
+## DAY-3 - Design Library using Magic Layout and NGSpice Characterization 
 
+- So looking at the IO-Placer.We can change the environment variable 
 
   
 
