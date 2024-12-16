@@ -190,8 +190,7 @@ Created layout :
 ![38](https://github.com/user-attachments/assets/f996920d-575c-403a-8193-f3755879150c)
 
 **NOTE :** 
-
-- ``` math
+``` math
 1 micron = 1000 database units
 ```
 According to our specifications it is 660685 and 671405
@@ -204,4 +203,47 @@ So according to our constraints the dimensions are :
 ```
 
 - Also we need to place the blocks as close as possible to the input and output ports in order to reduce the delays.
+- Optimize placement is the stage where we estimate the wire lengths,capacitors and so on.
+- We use a repeater block to reproduce the original signal so that signal integrity will be maintained.These are nothing but the **buffers**.
+
+![39](https://github.com/user-attachments/assets/779d874f-3372-4710-b41e-5106f291e5b2)
+
+- ## Running Placement in OpenLane :
+
+ ```
+cd results/floorplan
+ls -ltr
+cd ../placement/
+ls
+magic - T ~/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged. lef def read picorv32a.placement. def &
+```
+
+![40](https://github.com/user-attachments/assets/9282f945-9ca8-429e-bd91-734bd51de5a4)
+
+Below are the results : 
+
+![41](https://github.com/user-attachments/assets/ca2626c6-e5d5-4283-a37b-eefa2cb6e28a)
+
+![42](https://github.com/user-attachments/assets/d0751216-c59b-4d82-8ebd-532ac971aa93)
+
+![43](https://github.com/user-attachments/assets/5dc05027-ed03-432d-ba04-362b56be46da)
+
+- Cell design flow involves the following steps :
+
+  ![44](https://github.com/user-attachments/assets/72762670-ccfd-4187-9161-5d8eb3419ff6)
+
+```mermaid
+flowchart TD
+    Inputs --> DesignStep
+    DesignStep --> Outputs
+```
+
+- The most important thing is the timing constraints.We need to understand some timing variables,the terms such as rise time,fall time and the propagation delay.
+   - **Rise time** is defined as the time taken to transition from 10% to 90 % of the signal whereas **fall time** is defined the time taken to transition from 90% to 10% of the signal.
+     
+
+
+
+  
+
 
