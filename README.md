@@ -91,7 +91,7 @@ Flop\ Ratio = \frac{1613}{14876}
 ```
  = 0.1084 or 10.84% 
 
-## DAY-2 - Utilization factor and Aspect Ratio (Module-1)
+## DAY-2 - Good floorplan VS Bad Floorplan and introduction to library cells
 
 - This module involves understanding what is meant by utilization factor,aspect ratio and its significance in the physical design.
 - A section of the silicon wafer is called as silicon die.
@@ -189,5 +189,19 @@ Created layout :
 
 ![38](https://github.com/user-attachments/assets/f996920d-575c-403a-8193-f3755879150c)
 
+**NOTE :** 
 
+- ``` math
+1 micron = 1000 database units
+```
+According to our specifications it is 660685 and 671405
+So according to our constraints the dimensions are : 
+``` math
+  \text{Dimensions }= \frac{660685}{1000} = 660.6 microns
+```
+``` math
+   \text{Dimensions }= \frac{671405}{1000} = 671.405 microns
+```
+
+- Also we need to place the blocks as close as possible to the input and output ports in order to reduce the delays.
 
