@@ -100,10 +100,19 @@ Flop\ Ratio = \frac{1613}{14876}
 ```math
 \text{Utilization Factor} = \frac{\text{Area Occupied by the Netlist}}{\text{Total Area Occupied by the Core}}
 ```
-- Suppose the dimensions of a netlist are 2unit x 2unit and the dimensions of the core are 2unit x 2unit then the utilization factor is given by :
+- Suppose the dimensions of a netlist are 2unit x 2unit and the dimensions of the core are 2unit x 2unit then the utilization factor is given by : 
   ```math
     \text{Utilization Factor}= \frac{2x2}{2x2}
   ```
   then the utilization factor = 1.This signifies that there is **100% utilization**.
 
   ![20](https://github.com/user-attachments/assets/f9fceb02-6f72-402d-93bf-0b2e088eed43)
+
+  - Another important thing is the **aspect ratio**.Aspect ratio is defined as the ratio of the height to the width of the core.i.e,
+```math
+    \text{Aspect Ratio} = \frac{\text{Height}}{\text{Width}}
+```
+- Typically this aspect ratio is set to **1**.
+- Few more points to consider are :
+   - If the utilization factor is exactly equal to 1 then it is said to be 100% utilization and the core is of **square shape**.
+   - If the utilization factor is equal to 0.5 then the core is of **rectangular shape**.
