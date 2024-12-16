@@ -239,8 +239,15 @@ flowchart TD
 ```
 
 - The most important thing is the timing constraints.We need to understand some timing variables,the terms such as rise time,fall time and the propagation delay.
-   - **Rise time** is defined as the time taken to transition from 10% to 90 % of the signal whereas **fall time** is defined the time taken to transition from 90% to 10% of the signal.
-     
+   - **Rise time** is defined as the time taken to transition from 10% to 90 % of the final value whereas **fall time** is defined the time taken to transition from 90% to 10% of the final value.
+   - Below are some of the variables involved :
+
+      ![45](https://github.com/user-attachments/assets/b71be7e7-4a7f-4d9d-9472-2f28f5207637)
+
+   - **Propagation delay** is defined as the difference between the high level (fall or rise) and the low level (fall or rise).
+
+      ![46](https://github.com/user-attachments/assets/ebacd555-d4d2-4cc9-ad5b-9cb079c7f93c)
+
 
 
 
