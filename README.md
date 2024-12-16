@@ -283,5 +283,16 @@ flowchart TD
 
   ![52](https://github.com/user-attachments/assets/b7d6924c-5fde-43a4-8b51-0f85d4b537ab)
 
+- ### Cloning the github
+
+  ![53](https://github.com/user-attachments/assets/4932a2bf-1425-47a2-9a7a-8660df0e4ea9)
+
+  Copying the sk130A.tech file to the github repository that we have just cloned :
+
+  ![54](https://github.com/user-attachments/assets/be8bd66a-16c6-4b48-b3e4-de3fc9c11c6a)
+
+- Layout of a CMOS Inverter is shown below :
+
+  ![55](https://github.com/user-attachments/assets/8be8444a-4211-4a82-8fe3-69668696e2ec)
 
 
