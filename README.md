@@ -147,6 +147,47 @@ Flop\ Ratio = \frac{1613}{14876}
 
   ![29](https://github.com/user-attachments/assets/23605a3d-8604-465e-9dbe-1f073f66673b)
 
-- The view of the floorplaning is shown below :
+- The view of the power planning is shown below :
 
   ![30](https://github.com/user-attachments/assets/95c12812-b9b4-4af1-8d62-451ddfd050bb)
+
+- Netlist is represents the connectivity.
+
+  ![31](https://github.com/user-attachments/assets/2694dfaa-f54d-4792-b8f7-69e6ee7b809c)
+
+- Final floorplan that is ready for the placement and routing step is shown below :
+
+  ![32](https://github.com/user-attachments/assets/c05e7c34-4449-436d-826c-3b35444bb23a)
+
+- ## Running Floorplan in OpenLane :
+
+```
+run_floorplan
+```
+```
+cd ~/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/15-12_09-29
+ls -ltr
+cd results/floorplan
+```
+
+![33](https://github.com/user-attachments/assets/2c511161-32c7-4b67-95b4-060be5c84058)
+
+![34](https://github.com/user-attachments/assets/d44fd32b-1dbc-45a3-9e3f-22feb4ec211a)
+
+![35](https://github.com/user-attachments/assets/ac567438-375d-4b41-9af3-fcdce5da7e21)
+
+
+  - To view the results :
+
+    ```
+     magic - T ~/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read .. /../tmp/merged. lef def read picorv32a. floorplan. def &
+    ```
+![36](https://github.com/user-attachments/assets/34aea91b-0859-4575-a9c3-874b1eecf684)
+
+Created layout : 
+![37](https://github.com/user-attachments/assets/508a257f-55b6-4e4a-bf59-af0b34ab218f)
+
+![38](https://github.com/user-attachments/assets/f996920d-575c-403a-8193-f3755879150c)
+
+
+
