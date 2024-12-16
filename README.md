@@ -251,7 +251,13 @@ flowchart TD
 
 ## DAY-3 - Design Library using Magic Layout and NGSpice Characterization 
 
-- So looking at the IO-Placer.We can change the environment variable 
+- So looking at the IO-Placer.We can change the environment variable
+
+```
+set ::env(FP_IO_MODE) 2
+run_floorplan
+```
+
 
   
 
