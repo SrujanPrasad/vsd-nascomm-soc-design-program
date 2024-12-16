@@ -258,6 +258,15 @@ set ::env(FP_IO_MODE) 2
 run_floorplan
 ```
 
+We might see the below changes : 
+
+![47](https://github.com/user-attachments/assets/cb7af822-4e60-4e4d-9fae-1c56f8d81531)
+
+![48](https://github.com/user-attachments/assets/c6eedf79-6a71-4b6f-bddf-8a2dc43e6f15)
+
+![49](https://github.com/user-attachments/assets/278c82d6-cd87-4e38-a9ca-e6f13056886c)
+
+
 
   
 
