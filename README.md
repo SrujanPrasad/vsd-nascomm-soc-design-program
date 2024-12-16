@@ -116,3 +116,37 @@ Flop\ Ratio = \frac{1613}{14876}
 - Few more points to consider are :
    - If the utilization factor is exactly equal to 1 then it is said to be 100% utilization and the core is of **square shape**.
    - If the utilization factor is equal to 0.5 then the core is of **rectangular shape**.
+ 
+- Preplaced cells are the cells which are placed only once before the placement and routing as shown below :
+
+![21](https://github.com/user-attachments/assets/bab9bf73-bdd5-4b35-a62d-c18caf6d692a)
+
+![22](https://github.com/user-attachments/assets/19043fb1-355f-4931-884a-0f89694bfdde)
+
+- **Noise margin** is defined as the maximum amplitude that can be superimposed on all the nodes of a long chain of inverter such that it doesnot cause any change in the logic level of the output.
+
+  ![23](https://github.com/user-attachments/assets/af684a39-8a51-4ff1-99df-c702a2834e28)
+
+- As the signal propagates there are more chances of the signal to get degraded.So for this reason decoupling capacitors are used to get the exact output.
+
+  ![24](https://github.com/user-attachments/assets/eb66a917-66a4-4879-8827-da3e4eea7e3b)
+  
+  - Whenever there is a switching happening the decoupling capacitor looses its charge to the main circuit.
+  - When there is no switching happening the decoupling capacitor replenishes its own charge.
+
+- Consider the signal 0001101000111001.Upon application of this input to the inverter the output becomes : 1110010111000110.i.e all the capacitors at logic 1 will discharge to the same ground point as they are tapped to the same ground.This causes a problem called as the **ground bounce**.
+- Similarly,all the capacitors at logic 0 will charge towards the Vdd (supply) and a problem called **voltage drooping** arises,as shown below :
+
+   Ground bounce:
+   ![26](https://github.com/user-attachments/assets/536bc75c-cea5-46a9-bf05-e3d6bd0d1c28)
+
+  Voltage drooping:
+  ![27](https://github.com/user-attachments/assets/be68146a-2034-475a-9719-f6776f5ea9ee)
+
+- For this reason the recent chips have more than one supply points.
+
+  ![29](https://github.com/user-attachments/assets/23605a3d-8604-465e-9dbe-1f073f66673b)
+
+- The view of the floorplaning is shown below :
+
+  ![30](https://github.com/user-attachments/assets/95c12812-b9b4-4af1-8d62-451ddfd050bb)
