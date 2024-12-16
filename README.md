@@ -267,7 +267,21 @@ We might see the below changes :
 ![49](https://github.com/user-attachments/assets/278c82d6-cd87-4e38-a9ca-e6f13056886c)
 
 
-
+- CMOS Inverter is a CMOS circuit which performs the basic logic inversion of the input signal.It is a robust (strong) circuit.
+- Analysing a CMOS Inverter by plotting its VTC (Voltage Transfer Characteristics) using the Spicedeck which involves the following processes :
   
+ ```mermaid
+flowchart TD
+    Component_Connectivity --> Component_Values
+    Component_Values --> Identify_Nodes
+    Identify_Nodes --> Name_the_Nodes
+```
+
+  ![50](https://github.com/user-attachments/assets/069359da-f06a-4d05-b205-72496cd44bb9)
+
+![51](https://github.com/user-attachments/assets/13508c7e-9684-42d7-a1cc-4e32b7955793)
+
+  ![52](https://github.com/user-attachments/assets/b7d6924c-5fde-43a4-8b51-0f85d4b537ab)
+
 
 
