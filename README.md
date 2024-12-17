@@ -309,8 +309,8 @@ flowchart TD
 
   ![56](https://github.com/user-attachments/assets/4d534266-ea39-40af-b530-1818138654cf)
 
-  - We can get to know about the particular section in a layout by placing our cursor on it and hitting S on our keyboard to select it.
-  - We can then go to the tkcon window and type **''what''** to know about it.
+ - We can get to know about the particular section in a layout by placing our cursor on it and hitting S on our keyboard to select it.
+ - We can then go to the tkcon window and type **''what''** to know about it.
 
     ![image](https://github.com/user-attachments/assets/070ed493-94f9-48b8-a2c2-2edc38c33734)
 
