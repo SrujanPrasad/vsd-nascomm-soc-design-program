@@ -1,4 +1,4 @@
-# Digital VLSI SoC Design and Planning program (December 11 - December 24)-By Srujan Prasad 
+![image](https://github.com/user-attachments/assets/f54f692b-61d3-4abb-a598-aceaee1ee3ac)![image](https://github.com/user-attachments/assets/6e18a42c-8a87-4ee3-825f-915c3ea4eae6)# Digital VLSI SoC Design and Planning program (December 11 - December 24)-By Srujan Prasad 
 
 ## Overview of this repository : 
 This repository contains all the necessary details regarding the SoC design and planning that involves executing all the necessary steps starting from understanding the basics such as application softwares,
@@ -315,4 +315,31 @@ flowchart TD
     ![image](https://github.com/user-attachments/assets/070ed493-94f9-48b8-a2c2-2edc38c33734)
 
     ![image](https://github.com/user-attachments/assets/fc3258c9-a247-45aa-91df-b0baca810202)
+
+- Below are the steps that need to be followed in order to create the spice file :
+   - In the tkcon window type the following commands :
+     ```
+     extract all
+     ext2spice cthreshold 0 rthreshold 0
+     ext2spice
+     ```
+
+    ![59](https://github.com/user-attachments/assets/834cc4e9-ffcb-4716-85a0-2eadda933fc7)
+
+    In the terminal window : 
+     
+  ```
+  cd ~/Desktop/work/tools/openlane_working_dir/openlane/vsdstdcelldesign
+  ls -ltr
+  vim sky130A_inv.spice
+  ```
+  ![60](https://github.com/user-attachments/assets/0d7b8b95-fa4c-4129-a9a7-6966fa3b4961)
+
+
+  This opens the following :
+
+  ![61](https://github.com/user-attachments/assets/d497f76b-c558-42ac-af62-b345534fae8d)
+
+  
+  
 
