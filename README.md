@@ -365,6 +365,8 @@ flowchart TD
 
   - **Rise Transition** is defined as the time taken to transition from 20% to the 80% of the maximum value(i.e VDD the supply voltage).
   - **Fall Transition** is defined as the time taken to transition from 80% to the 20% of the maximum value(i.e VDD the supply voltage).
+  - **Rise cell delay** is defined as difference between 50% of input voltage and output voltage that is defined at 50% of input voltage in the rise waveform.
+  - **Fall cell delay** is defined as difference between 50% of input voltage and output voltage that is defined at 50% of input voltage in the fall waveform.
  
     We have taken the supply voltage Vdd to be 3.3V.
 
@@ -379,10 +381,13 @@ flowchart TD
     ```math
        \text{80% of Vdd }= \frac{80*3.3}{100} = 2.64V
     ```
-    
-    Rise_cell delay = 2.245-2.181 = 0.065ns
 
-    Fall_cell delay = 
+    Rise_cell_delay = 4.077-4.05 =0.027ns
+    Fall_cell_delay = 2.21-2.14 = 0.07ns
+
+    ![66](https://github.com/user-attachments/assets/116232e6-6795-42e1-a9ed-d351ed996221)
+
+ 
    
    
 
