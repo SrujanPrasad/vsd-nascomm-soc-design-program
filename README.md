@@ -295,7 +295,7 @@ flowchart TD
 
   ![55](https://github.com/user-attachments/assets/8be8444a-4211-4a82-8fe3-69668696e2ec)
 
-- CMOS Fabrication process involves the following steps :
+- **CMOS Fabrication** process involves the following steps :
   - Select the substrate.
   - Create active regions for the transistor.
   - N-Well and P-well formation.
