@@ -295,4 +295,16 @@ flowchart TD
 
   ![55](https://github.com/user-attachments/assets/8be8444a-4211-4a82-8fe3-69668696e2ec)
 
+- CMOS Fabrication process involves the following steps :
+  - Select the substrate.
+  - Create active regions for the transistor.
+  - N-Well and P-well formation.
+  - Formation of gate.
+  - Lightly doped drain formation.
+  - Source and drain formation.
+  - Form interconnects and the contacts.
+  - Higher level formation.
 
+  The final fabricated CMOS is as shown below :
+
+  ![56](https://github.com/user-attachments/assets/4d534266-ea39-40af-b530-1818138654cf)
