@@ -336,7 +336,7 @@ flowchart TD
   ![60](https://github.com/user-attachments/assets/0d7b8b95-fa4c-4129-a9a7-6966fa3b4961)
 
 
-  This opens the following :
+  - This opens the following :
 
   ![61](https://github.com/user-attachments/assets/d497f76b-c558-42ac-af62-b345534fae8d)
 
@@ -344,7 +344,7 @@ flowchart TD
 
   ![63](https://github.com/user-attachments/assets/4a6c4d7f-95b0-4d12-bd7a-3c01177c6746)
 
-  We then run the following command :
+  - We then run the following command :
 
   ```
   ngspice sky130_inv.spice
@@ -353,13 +353,38 @@ flowchart TD
 
   ![64](https://github.com/user-attachments/assets/c052a0ec-c216-49c3-bdc4-a871e0677690)
 
-  This opens the transient response as shown below :
+  - This opens the transient response as shown below :
 
   ![65](https://github.com/user-attachments/assets/558c0720-c036-4d63-91bd-a6d2cbcae4a1)
 
-  
+  - Now we consider the following parameters such as :
+     - Rise transition
+     - Fall transition
+     - Rise_cell delay
+     - Fall_cell delay
 
+  - **Rise Transition** is defined as the time taken to transition from 20% to the 80% of the maximum value(i.e VDD the supply voltage).
+  - **Fall Transition** is defined as the time taken to transition from 80% to the 20% of the maximum value(i.e VDD the supply voltage).
+ 
+    We have taken the supply voltage Vdd to be 3.3V.
 
+    So calculating it's 20% value :
+
+    ```math
+       \text{20% of Vdd }= \frac{20*3.3}{100} = 0.66V
+    ```
+
+    Also calculating it's 80% value:
+
+    ```math
+       \text{80% of Vdd }= \frac{80*3.3}{100} = 2.64V
+    ```
+    
+    Rise_cell delay = 2.245-2.181 = 0.065ns
+
+    Fall_cell delay = 
+   
+   
 
   
   
