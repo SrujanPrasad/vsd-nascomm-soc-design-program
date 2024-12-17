@@ -383,6 +383,8 @@ flowchart TD
     ```
 
     Rise_cell_delay = 4.077-4.05 =0.027ns
+
+
     Fall_cell_delay = 2.21-2.14 = 0.07ns
 
     ![66](https://github.com/user-attachments/assets/116232e6-6795-42e1-a9ed-d351ed996221)
