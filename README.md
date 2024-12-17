@@ -331,7 +331,7 @@ flowchart TD
   ```
   cd ~/Desktop/work/tools/openlane_working_dir/openlane/vsdstdcelldesign
   ls -ltr
-  vim sky130A_inv.spice
+  vim sky130_inv.spice
   ```
   ![60](https://github.com/user-attachments/assets/0d7b8b95-fa4c-4129-a9a7-6966fa3b4961)
 
@@ -339,6 +339,27 @@ flowchart TD
   This opens the following :
 
   ![61](https://github.com/user-attachments/assets/d497f76b-c558-42ac-af62-b345534fae8d)
+
+  So the parameters are edited in the .spice file that is we first include the necessary libraries such as pshort.lib and nshort.lib and run the ngspice as shown in the below image :
+
+  ![63](https://github.com/user-attachments/assets/4a6c4d7f-95b0-4d12-bd7a-3c01177c6746)
+
+  We then run the following command :
+
+  ```
+  ngspice sky130_inv.spice
+  ngspice->plot y vs time a
+  ```
+
+  ![64](https://github.com/user-attachments/assets/c052a0ec-c216-49c3-bdc4-a871e0677690)
+
+  This opens the transient response as shown below :
+
+  ![65](https://github.com/user-attachments/assets/558c0720-c036-4d63-91bd-a6d2cbcae4a1)
+
+  
+
+
 
   
   
