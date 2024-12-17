@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/f54f692b-61d3-4abb-a598-aceaee1ee3ac)![image](https://github.com/user-attachments/assets/6e18a42c-8a87-4ee3-825f-915c3ea4eae6)# Digital VLSI SoC Design and Planning program (December 11 - December 24)-By Srujan Prasad 
+# Digital VLSI SoC Design and Planning program (December 11 - December 24)-By Srujan Prasad 
 
 ## Overview of this repository : 
 This repository contains all the necessary details regarding the SoC design and planning that involves executing all the necessary steps starting from understanding the basics such as application softwares,
