@@ -389,10 +389,9 @@ flowchart TD
 
     ![66](https://github.com/user-attachments/assets/116232e6-6795-42e1-a9ed-d351ed996221)
 
- 
+ - This module ends by getting exposed to the magic tool and the google skywater 130nm process design kit (pdks) and its further details.
    
-   
-
+## DAY-4 - Pre Layout timing analysis and importance of good clock tree  
   
   
 
