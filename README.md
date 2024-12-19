@@ -448,3 +448,8 @@ Delay table for size 2 buffer :
   
 ![image](https://github.com/user-attachments/assets/74050841-f04c-47bf-ac60-5b869ea066c2)
 
+- To run the clock tree synthesis in openlane :
+
+  ```
+  run_cts
+  ```
