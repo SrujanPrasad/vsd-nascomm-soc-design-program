@@ -401,7 +401,7 @@ pwd
 ls -ltr
 ./flow.tcl -interactive
 package require openlane 0.9
-prep -design picorv32a -tag 17-12_15-12 -overwrite
+prep -design picorv32a -tag 13-12_17-55 -overwrite
 ```
 - A **delay table** is a two-dimensional table that generates a circuit delay and output slope from an input slope and output load.
 
