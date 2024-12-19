@@ -439,3 +439,4 @@ Delay table for size 2 buffer :
 
 - Time taken by the capture flop to settle is called as the **setup time**.
 - **Clock Jitter** is defined as the temporary variation of the clock period.
+- **Fan-out** is defined as the maximum number of digital inputs that a single logic gate can drive without affecting the normal operation.So more the fanout more will be the slew.
