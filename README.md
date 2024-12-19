@@ -411,6 +411,7 @@ Delay table for size 1 buffer :
 
 Delay table for size 2 buffer : 
 
-![Uploading 68.png…]()
+![68](https://github.com/user-attachments/assets/a7fb0f59-d5d9-4c4f-bfd3-8d9d46c80b48)
+
 
 
