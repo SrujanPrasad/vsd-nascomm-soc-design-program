@@ -437,3 +437,5 @@ Delay table for size 2 buffer :
   
   ![image](https://github.com/user-attachments/assets/74a53e1f-170a-4e9c-a11a-df61cd85e1ba)
 
+- Time taken by the capture flop to settle is called as the **setup time**.
+- **Clock Jitter** is defined as the temporary variation of the clock period.
