@@ -453,3 +453,4 @@ Delay table for size 2 buffer :
   ```
   run_cts
   ```
+- One disadvantage of the triton CTS is that it can perform only for single corner but cannot perform for the multi-corner.
