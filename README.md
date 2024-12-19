@@ -418,5 +418,21 @@ Delay table for size 2 buffer :
 - We can modify the values of SYNTH_STRATEGY in order to reduce the delay as following :
 
   ```
+  echo $::env(SYNTH_STRATEGY)
   set ::env(SYNTH_STRATEGY) 1
   ```
+
+  ```
+  echo $::env(SYNTH_BUFFERING)
+  ```
+  
+  ```
+  echo $::env(SYNTH_SIZING)
+  set ::env(SYNTH_SIZING) 1
+  ```
+  
+  ```
+  echo $::env(SYNTH_DRIVING_CELL)
+  ```
+  
+  
