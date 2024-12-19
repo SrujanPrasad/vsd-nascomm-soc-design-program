@@ -59,7 +59,7 @@ To check its version  :
 ```
 To perform preparation  :
 ```
-prep -design picorv32a
+prep -design picorv32a  // Picorv32a is a CPU Core that implements RISC-V RV32IMC Instruction Set
 
 ```
 Finally to run the synthesis 
