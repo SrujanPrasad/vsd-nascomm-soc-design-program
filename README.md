@@ -393,5 +393,14 @@ flowchart TD
    
 ## DAY-4 - Pre Layout timing analysis and importance of good clock tree  
   
-  
+- In order to overwrite the existing folder that we had created before we need to type the folowing command :
+
+```
+docker
+pwd
+ls -ltr
+./flow.tcl -interactive
+package require openlane 0.9
+prep -design picorv32a -tag 17-12_15-12 -overwrite
+```
 
