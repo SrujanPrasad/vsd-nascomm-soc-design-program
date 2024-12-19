@@ -415,3 +415,8 @@ Delay table for size 2 buffer :
 
 - **Clock skew**, also known as timing skew, is defined as  the difference in time between when a clock signal arrives at different components in a system.
 
+- We can modify the values of SYNTH_STRATEGY in order to reduce the delay as following :
+
+  ```
+  set ::env(SYNTH_STRATEGY) 1
+  ```
