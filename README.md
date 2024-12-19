@@ -415,6 +415,9 @@ Delay table for size 2 buffer :
 
 - **Clock skew**, also known as timing skew, is defined as  the difference in time between when a clock signal arrives at different components in a system.
 
+  ![image](https://github.com/user-attachments/assets/c50a6095-0e48-462f-a8f8-332f5595f733)
+
+  
 - We can modify and view the values of various parameters in order to reduce the delay as following :
 
   ```
@@ -440,3 +443,4 @@ Delay table for size 2 buffer :
 - Time taken by the capture flop to settle is called as the **setup time**.
 - **Clock Jitter** is defined as the temporary variation of the clock period.
 - **Fan-out** is defined as the maximum number of digital inputs that a single logic gate can drive without affecting the normal operation.So more the fanout more will be the slew.
+- 
