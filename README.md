@@ -413,5 +413,5 @@ Delay table for size 2 buffer :
 
 ![68](https://github.com/user-attachments/assets/a7fb0f59-d5d9-4c4f-bfd3-8d9d46c80b48)
 
-
+- **Clock skew**, also known as timing skew, is defined as  the difference in time between when a clock signal arrives at different components in a system.
 
