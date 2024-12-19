@@ -444,7 +444,7 @@ Delay table for size 2 buffer :
 - **Clock Jitter** is defined as the temporary variation of the clock period.
 - **Fan-out** is defined as the maximum number of digital inputs that a single logic gate can drive without affecting the normal operation.So more the fanout more will be the slew.
 
-- **Clock net shielding** is defined as the one in which the clock nets are shielded/protected from the outside world.
+- **Clock net shielding** is defined as the one in which the clock nets are shielded/protected from the outside world. This is one of the technique to prevent crosstalks(i.e it is defined as the one which occurs when signal in circuit affects the another circuit or the channel in undesirable way.)
   
 ![image](https://github.com/user-attachments/assets/74050841-f04c-47bf-ac60-5b869ea066c2)
 
