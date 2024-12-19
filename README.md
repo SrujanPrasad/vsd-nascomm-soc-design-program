@@ -403,4 +403,8 @@ ls -ltr
 package require openlane 0.9
 prep -design picorv32a -tag 17-12_15-12 -overwrite
 ```
+- A **delay table** is a two-dimensional table that generates a circuit delay and output slope from an input slope and output load.
+
+Delay table for size 1 buffer : 
+![67](https://github.com/user-attachments/assets/49c31c08-b13f-4016-9e05-bdf7827b1c0a)
 
