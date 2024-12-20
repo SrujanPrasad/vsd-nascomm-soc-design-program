@@ -505,3 +505,8 @@ For setup timing analysis :
     - Yellow represents the I/O pads.
     - Red represents Vdd.
     - Blue represents ground.
+- After the parameters are set we type the follwing command to run routing :
+
+  ```
+  run_routing
+  ```
