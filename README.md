@@ -480,3 +480,5 @@ For setup timing analysis :
 - Hold Slack does not have significance until the clock tree is built.
 
 ## DAY-5 - Final Steps for RTL2GDS using triton and openSTA
+
+- **Routing** is defined as the best possible connection between the two or more blocks.
