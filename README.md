@@ -416,6 +416,12 @@ Delay table for size 2 buffer :
 - **Clock skew**, also known as timing skew, is defined as  the difference in time between when a clock signal arrives at different components in a system.(i.e it is the difference between the data required time-data arrival time)
    - If difference is positive then it is a positive slack.
    - If difference is negative then it is a negative slack.
+     
+For setup timing analysis :
+
+  ```math
+  Slack = Data required time - Data arrival time 
+```
 
   ![image](https://github.com/user-attachments/assets/c50a6095-0e48-462f-a8f8-332f5595f733)
 
@@ -457,4 +463,10 @@ Delay table for size 2 buffer :
   ```
 - One disadvantage of the triton CTS is that it can perform only for single corner but cannot perform for the multi-corner.
 
-  
+- Hold timing analysis : The capture flop signals the launch flop to hold its data until it sends the existing data outside.
+
+  For hold timing analysis we define slack as :
+
+  ```math
+  Slack = Data arrival time - Data required time.
+```
