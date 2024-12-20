@@ -521,3 +521,7 @@ For setup timing analysis :
   ```
     - Fast route for global routing.
     - Detail Routing for triton routing.
+
+  - Pre-Processed Route guide :
+
+    ![image](https://github.com/user-attachments/assets/69f2044b-c68f-479f-8d09-15f0c318179f)
