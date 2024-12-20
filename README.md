@@ -510,3 +510,13 @@ For setup timing analysis :
   ```
   run_routing
   ```
+
+- Types of Routing :
+
+  ```mermaid
+flowchart TD
+
+  Types of Routing -->Fast routing
+    B -->Detail Routing
+   
+  ``` 
