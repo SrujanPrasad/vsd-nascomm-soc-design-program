@@ -514,9 +514,9 @@ For setup timing analysis :
 - Types of Routing :
 
   ```mermaid
-flowchart TD
 
-  Types of Routing -->Fast routing
-    B -->Detail Routing
-   
-  ``` 
+  flowchart TD
+  A[Types of Routing] --> B[Fast Routing]
+  A --> C[Detail Routing]
+  ```
+
