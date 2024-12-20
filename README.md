@@ -413,7 +413,9 @@ Delay table for size 2 buffer :
 
 ![68](https://github.com/user-attachments/assets/a7fb0f59-d5d9-4c4f-bfd3-8d9d46c80b48)
 
-- **Clock skew**, also known as timing skew, is defined as  the difference in time between when a clock signal arrives at different components in a system.
+- **Clock skew**, also known as timing skew, is defined as  the difference in time between when a clock signal arrives at different components in a system.(i.e it is the difference between the data required time-data arrival time)
+   - If difference is positive then it is a positive slack.
+   - If difference is negative then it is a negative slack.
 
   ![image](https://github.com/user-attachments/assets/c50a6095-0e48-462f-a8f8-332f5595f733)
 
@@ -454,3 +456,5 @@ Delay table for size 2 buffer :
   run_cts
   ```
 - One disadvantage of the triton CTS is that it can perform only for single corner but cannot perform for the multi-corner.
+
+  
