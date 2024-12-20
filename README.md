@@ -499,7 +499,7 @@ For setup timing analysis :
   ```
   - Power planning :
     
-    ![image](https://github.com/user-attachments/assets/5290a3b7-9c1e-46ca-bfbf-f9aeecb134f2)
+   ![image](https://github.com/user-attachments/assets/f12801fb-bf0e-41f0-9c8a-501ea83dd334)
 
       - Green represents picorv32a.
       - Yellow represents the I/O pads.
