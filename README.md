@@ -468,5 +468,5 @@ For setup timing analysis :
   For hold timing analysis we define slack as :
 
   ```math
-  Slack = Data arrival time - Data required time.
+  Slack = Data\arrival\time - Data\required\time.
 ```
