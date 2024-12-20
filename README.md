@@ -519,4 +519,5 @@ For setup timing analysis :
   A[Types of Routing] --> B[Fast Routing]
   A --> C[Detail Routing]
   ```
-
+    - Fast route for global routing.
+    - Detail Routing for triton routing.
