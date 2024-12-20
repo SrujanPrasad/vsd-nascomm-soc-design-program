@@ -497,7 +497,7 @@ For setup timing analysis :
   ```
   gen_pdn
   ```
-  - Power planning :
+- Power planning :
     
    ![image](https://github.com/user-attachments/assets/f12801fb-bf0e-41f0-9c8a-501ea83dd334)
 
