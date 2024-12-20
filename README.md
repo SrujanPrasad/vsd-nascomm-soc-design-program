@@ -477,4 +477,4 @@ For setup timing analysis :
 
   ![image](https://github.com/user-attachments/assets/3c2b6801-8d83-4799-83a7-f32e5dee46a6)
 
-  
+- Hold Slack does not have significance until the clock tree is built.
