@@ -419,9 +419,8 @@ Delay table for size 2 buffer :
      
 For setup timing analysis :
 
-  ```math
   Slack = Data required time - Data arrival time 
-```
+
 
   ![image](https://github.com/user-attachments/assets/c50a6095-0e48-462f-a8f8-332f5595f733)
 
@@ -467,6 +466,5 @@ For setup timing analysis :
 
   For hold timing analysis we define slack as :
 
-  ```math
-  Slack = Data\arrival\time - Data\required\time.
-```
+  Slack = Data arrival time - Data required time.
+
