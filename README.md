@@ -482,3 +482,7 @@ For setup timing analysis :
 ## DAY-5 - Final Steps for RTL2GDS using triton and openSTA
 
 - **Routing** is defined as the best possible connection between the two or more blocks.
+- Here **Lee's Algorithm** is used which is an algorithm to find the shortest path between two points on a 2-Dimensional grid.
+- Any routes with a single bend is preffered by a routing engineer.
+
+![image](https://github.com/user-attachments/assets/357c4732-ab8b-4841-a2fc-5730e179fb84)
