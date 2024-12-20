@@ -469,3 +469,12 @@ For setup timing analysis :
 
   Slack = Data arrival time - Data required time.
 
+- Openroad is integrated within the openlane.To invoke openroad : 
+
+  ```
+  openroad
+  ```
+
+  ![image](https://github.com/user-attachments/assets/3c2b6801-8d83-4799-83a7-f32e5dee46a6)
+
+  
