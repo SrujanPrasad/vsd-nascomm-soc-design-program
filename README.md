@@ -492,4 +492,9 @@ For setup timing analysis :
   - Pitch of the wire.
   - Wire Spacing between the wires.
 
+- To run the power distribution network  :
+
+  ```
+  gen_pdn
+  ```
   
