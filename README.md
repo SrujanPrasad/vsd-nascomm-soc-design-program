@@ -486,3 +486,10 @@ For setup timing analysis :
 - Any routes with a single bend is preffered by a routing engineer.
 
 ![image](https://github.com/user-attachments/assets/357c4732-ab8b-4841-a2fc-5730e179fb84)
+
+- DRC stands for **Design Run Check**.Typical design rules are :
+  - Width of the wire.
+  - Pitch of the wire.
+  - Wire Spacing between the wires.
+
+  
