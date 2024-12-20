@@ -501,7 +501,7 @@ For setup timing analysis :
     
    ![image](https://github.com/user-attachments/assets/f12801fb-bf0e-41f0-9c8a-501ea83dd334)
 
-  - Green represents picorv32a.
-  - Yellow represents the I/O pads.
-  - Red represents Vdd.
-  - Blue represents ground.
+    - Green represents picorv32a.
+    - Yellow represents the I/O pads.
+    - Red represents Vdd.
+    - Blue represents ground.
