@@ -497,4 +497,11 @@ For setup timing analysis :
   ```
   gen_pdn
   ```
-  
+  - Power planning :
+    
+    ![image](https://github.com/user-attachments/assets/5290a3b7-9c1e-46ca-bfbf-f9aeecb134f2)
+
+      - Green represents picorv32a.
+      - Yellow represents the I/O pads.
+      - Red represents Vdd.
+      - Blue represents ground.
